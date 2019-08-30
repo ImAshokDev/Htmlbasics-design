@@ -1,7 +1,7 @@
 # Task in HTML & CSS : Amazing Places on earth
 
 
-# [Sit URL](https://romantic-brahmagupta-de3f83.netlify.com/)
+# [Site URL](https://romantic-brahmagupta-de3f83.netlify.com/)
 
 ### Original Template Image
 
