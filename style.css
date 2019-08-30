@@ -1,4 +1,9 @@
 body {
+    margin: 0;
+    padding: 0;
+}
+
+.amazing-nature {
     margin: 0 5% 0 5%;
     padding: 0;
 }
@@ -52,6 +57,7 @@ body {
 
 .menu-block ul li:hover {
     color: rgb(228, 107, 8);
+    cursor: pointer;
 }
 
 .social-media {
@@ -64,6 +70,7 @@ body {
 .social-media i {
     padding: 18px 0 0 15px;
     float: right;
+    font-size: 25px;
 }
 
 .content-section {
@@ -99,15 +106,14 @@ body {
 }
 
 .slider-section {
-    height: 550px;
-    background-color: rgb(53, 212, 39);
+    height: 600px;
 }
 
 .slider-section .image1 {
     margin: 0;
     float: left;
     width: 30%;
-    height: 550px;
+    height: 600px;
     text-align: center;
 }
 
@@ -117,11 +123,43 @@ body {
     height: 300px;
 }
 
+.image1 button {
+    padding: 10px 45px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(243, 152, 6);
+    background-color: black;
+    border: none;
+}
+
+.image1 button:hover {
+    color: hsl(318, 94%, 50%);
+    border: 2px solid rebeccapurple;
+    cursor: pointer;
+    background-color: rgb(230, 226, 220);
+}
+
+.image1 h4 {
+    margin: 0;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+.image1 p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    opacity: 0.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
 .slider-section .image2 {
     margin: 0 5%;
     float: left;
     width: 30%;
-    height: 550px;
+    height: 600px;
     text-align: center;
 }
 
@@ -131,11 +169,48 @@ body {
     height: 300px;
 }
 
-.image1 button {
+.image2 button {
+    padding: 10px 45px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(243, 152, 6);
+    background-color: black;
+    border: none;
+}
+
+.image2 button:hover {
+    color: hsl(318, 94%, 50%);
+    border: 2px solid rebeccapurple;
+    cursor: pointer;
+    background-color: rgb(230, 226, 220);
+}
+
+.image2 h4 {
+    margin: 0;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+.image2 p {
+    margin: 0;
     padding: 0;
+    font-size: 16px;
+    opacity: 0.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 
 .footer-section {
-    height: 50px;
-    background-color: orange;
+    height: 60px;
+    background-color: rgb(200, 200, 196);
+}
+
+.footer-section p {
+    margin: 0;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
 }
